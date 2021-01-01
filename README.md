@@ -1,39 +1,55 @@
-# Learning template
+# Learning [`localtunnel`](https://github.com/localtunnel/localtunnel)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-<!-- Add reference link(s) here -->
+<https://github.com/localtunnel/localtunnel>
 
 ## From scratch
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
 
 ```bash
-yarn add 
+yarn global add localtunnel
+yarn global add parcel-bundler
 ```
 
 Or with `npm`:
 
 ```bash
-npm install 
+npm install -g localtunnel
+npm install -g parcel-bundler
 ```
 
 And then:
 
 ```bash
-
+touch index.html
+# edit your index.html file
+parcel index.html
 ```
 
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
+Let's say [Parcel](https://github.com/hchiam/learning-parcel) is serving your index.html to localhost:1234
+
+Then in a separate CLI:
+
+```bash
+lt --port 1234
+```
+
+You can run `npx localtunnel --port 1234` instead if you don't want to install `localtunnel`.
+
+The CLI should print out a URL that anyone with internet access can now view, exposing/tunneled from your localhost!
+
+## Starting by testing out this repo
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
+git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && yarn; # and then ...
 ```
 
 Or with `npm`: (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
+git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && npm install; # and then ...
 ```
