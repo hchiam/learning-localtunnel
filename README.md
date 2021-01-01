@@ -4,7 +4,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://github.com/localtunnel/localtunnel>
 
-## From scratch
+<details>
+<summary><b>From scratch</b></summary>
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
 
@@ -40,7 +41,10 @@ You can run `npx localtunnel --port 1234` instead if you don't want to install `
 
 The CLI should print out a URL that anyone with internet access can now view, exposing/tunneled from your localhost! (Just read the warnings and then click "Click to Continue".)
 
-## Starting by testing out this repo
+</details>
+
+<details>
+<summary><b>Starting by testing out this repo</b></summary>
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
@@ -63,3 +67,5 @@ git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-loca
 # in another CLI:
 lt --port 1234 # or whichever port parcel decides
 ```
+
+</details>
