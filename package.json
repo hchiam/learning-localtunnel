@@ -1,0 +1,23 @@
+{
+  "name": "learning-localtunnel",
+  "version": "1.0.0",
+  "description": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "main": "index.js",
+  "scripts": {
+    "go": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchiam/learning-localtunnel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hchiam/learning-localtunnel/issues"
+  },
+  "homepage": "https://github.com/hchiam/learning-localtunnel#readme",
+  "devDependencies": {
+    "localtunnel": "^2.0.0",
+    "parcel": "^1.12.4"
+  }
+}

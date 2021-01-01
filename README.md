@@ -38,18 +38,28 @@ lt --port 1234
 
 You can run `npx localtunnel --port 1234` instead if you don't want to install `localtunnel`.
 
-The CLI should print out a URL that anyone with internet access can now view, exposing/tunneled from your localhost!
+The CLI should print out a URL that anyone with internet access can now view, exposing/tunneled from your localhost! (Just read the warnings and then click "Click to Continue".)
 
 ## Starting by testing out this repo
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && yarn; # and then ...
+git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && yarn && yarn go;
+```
+
+```bash
+# in another CLI:
+lt --port 1234 # or whichever port parcel decides
 ```
 
 Or with `npm`: (triple-click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && npm install; # and then ...
+git clone https://github.com/hchiam/learning-localtunnel.git && cd learning-localtunnel && npm install && npm run go;
+```
+
+```bash
+# in another CLI:
+lt --port 1234 # or whichever port parcel decides
 ```
